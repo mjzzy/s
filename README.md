@@ -212,5 +212,4 @@ foreach (var c in clients) Console.WriteLine($"Client {c.Id} {c.Name}");
 
 ---
 
-If you need XML documentation comments added directly into the source (/// <summary> ... ), or you want the README exported as formatted HTML or a developer reference, I can add those next.
 
