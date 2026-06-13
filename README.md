@@ -1,4 +1,4 @@
-# Mizz — Complete Documentation
+# MIZZ X — Complete Documentation
 
 This README fully documents the public API, internal helpers, constants, fields, and files in this repository. It covers behaviors, parameters, return values, example usage, build details, and how to control assembly metadata.
 
@@ -212,4 +212,29 @@ foreach (var c in clients) Console.WriteLine($"Client {c.Id} {c.Name}");
 
 ---
 
+Integration into an executor
 
+1) Add a reference
+- Add the SapiV project to your executor solution or reference the compiled SapiV.dll (e.g. SapiV/bin/Release/net8.0/SapiV.dll).
+- Ensure VelocityAPI.dll and the required Bin/ files are deployed next to your executor executable (or let SapiV.FileManager download them at runtime).
+
+2) Configure before injecting
+- Call configuration helpers early (before Inject):
+  Api.SetCustomInjectionNotification("MyExecutor","Injected!","", "5");
+  Api.SetCustomUserAgent("MyExecutor UA");
+  Api.SetCustomNameExecutor("MyExecutor","v1.0.0");
+  Api.EnableConsole = false; // optional
+
+3) Inject from UI or background
+- Inject is async: await Api.Inject(); from an async event handler or background task. Do not block the UI thread.
+
+4) Execute scripts
+- After injection use Api.Execute(luaScript) to run Lua code. Execution is fire-and-forget from the caller perspective; errors are logged internally.
+
+5) Manage lifecycle
+- Use Api.GetClientsList() to show connected clients and Api.KillRoblox() to stop processes and cleanup. The library also cleans up on process exit.
+
+6) Build and deployment
+- Target the same runtime (both projects use .NET 8 by default). Deploy SapiV.dll, VelocityAPI.dll and the Bin folder alongside your executor.
+
+7) Legal and safety
