@@ -212,13 +212,5 @@ foreach (var c in clients) Console.WriteLine($"Client {c.Id} {c.Name}");
 
 ---
 
-Changelog (recent edits made by maintainer / Copilot):
-- Replaced Thread.Sleep with await Task.Delay in async flows.
-- Non-blocking Execute exception logging (removed Console.ReadKey and introduced Task.Run + async delay for logs).
-- Hardened file deletion with existence checks and try/catch.
-- Added explicit AssemblyInfo.cs and disabled SDK auto-generation to resolve duplicate assembly attribute build errors.
-
----
-
 If you need XML documentation comments added directly into the source (/// <summary> ... ), or you want the README exported as formatted HTML or a developer reference, I can add those next.
 
