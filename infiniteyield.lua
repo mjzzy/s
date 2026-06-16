@@ -10943,7 +10943,7 @@ end)
 
 addcmd('remotespy',{'rspy'},function(args, speaker)
 	notify("Loading",'wait a second')
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/mjzzy/s/refs/heads/main/SimpleSpy"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/78n/SimpleSpy/main/SimpleSpyBeta.lua"))()
 end)
 
 addcmd('audiologger',{'alogger'},function(args, speaker)
