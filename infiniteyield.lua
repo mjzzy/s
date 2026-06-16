@@ -4490,6 +4490,7 @@ CMDs[#CMDs + 1] = {NAME = 'oldconsole', DESC = 'Loads old Roblox console'}
 CMDs[#CMDs + 1] = {NAME = 'explorer / dex', DESC = 'Opens DEX by Chillz'}
 CMDs[#CMDs + 1] = {NAME = 'olddex / odex', DESC = 'Opens Old DEX by Moon'}
 CMDs[#CMDs + 1] = {NAME = 'remotespy / rspy', DESC = 'Opens Simple Spy V3'}
+CMDs[#CMDs + 1] = {NAME = 'cobalt / cbt', DESC = 'Opens Cobalt'}
 CMDs[#CMDs + 1] = {NAME = 'audiologger / alogger', DESC = 'Opens Edges audio logger'}
 CMDs[#CMDs + 1] = {NAME = 'serverinfo / info', DESC = 'Gives you info about the server'}
 CMDs[#CMDs + 1] = {NAME = 'serverscan', DESC = 'Scans strings for server references and reconstructs them'}
@@ -10946,7 +10947,7 @@ addcmd('remotespy',{'rspy'},function(args, speaker)
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/78n/SimpleSpy/main/SimpleSpyBeta.lua"))()
 end)
 
-addcmd('Cobalt',{'cbt'},function(args, speaker)
+addcmd('cobalt',{'cbt'},function(args, speaker)
 	notify("Loading",'Cobalt Loading')
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/mjzzy/s/refs/heads/main/Cobalt"))()
 end)
