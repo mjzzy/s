@@ -10942,8 +10942,8 @@ addcmd('olddex', {'odex'}, function(args, speaker)
 end)
 
 addcmd('remotespy',{'rspy'},function(args, speaker)
-	notify("Loading",'Hold on a sec')
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/corecommit/backup/refs/heads/main/SimpleSpyV3/main.lua"))()
+	notify("Loading",'wait a second')
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/mjzzy/s/refs/heads/main/SimpleSpy"))()
 end)
 
 addcmd('audiologger',{'alogger'},function(args, speaker)
