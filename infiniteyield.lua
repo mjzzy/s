@@ -4490,7 +4490,6 @@ CMDs[#CMDs + 1] = {NAME = 'oldconsole', DESC = 'Loads old Roblox console'}
 CMDs[#CMDs + 1] = {NAME = 'explorer / dex', DESC = 'Opens DEX by Chillz'}
 CMDs[#CMDs + 1] = {NAME = 'olddex / odex', DESC = 'Opens Old DEX by Moon'}
 CMDs[#CMDs + 1] = {NAME = 'remotespy / rspy', DESC = 'Opens Simple Spy V3'}
-CMDs[#CMDs + 1] = {NAME = 'cobalt / cbt', DESC = 'Opens Cobalt'}
 CMDs[#CMDs + 1] = {NAME = 'audiologger / alogger', DESC = 'Opens Edges audio logger'}
 CMDs[#CMDs + 1] = {NAME = 'serverinfo / info', DESC = 'Gives you info about the server'}
 CMDs[#CMDs + 1] = {NAME = 'serverscan', DESC = 'Scans strings for server references and reconstructs them'}
@@ -4551,7 +4550,7 @@ CMDs[#CMDs + 1] = {NAME = 'removecmd / deletecmd', DESC = 'Removes a command unt
 CMDs[#CMDs + 1] = {NAME = 'breakloops / break (cmd loops)', DESC = 'Stops any cmd loops (;100^1^cmd)'}
 CMDs[#CMDs + 1] = {NAME = 'loop / repeat [cmd] [times] [delay]', DESC = 'Loops a command N times, or use inf for infinite (e.g. ;loop btools 5, ;loop goto target 3 1)'}
 CMDs[#CMDs + 1] = {NAME = 'kill', DESC = 'Completely removes Infinite Yield from the session'}
-CMDs[#CMDs + 1] = {NAME = '', DESC = ''}
+CMDs[#CMDs + 1] = {NAME = 'cobalt / cbt', DESC = 'Opens Cobalt'}
 CMDs[#CMDs + 1] = {NAME = 'noclip', DESC = 'Go through objects'}
 CMDs[#CMDs + 1] = {NAME = 'unnoclip / clip', DESC = 'Disables noclip'}
 CMDs[#CMDs + 1] = {NAME = 'fly [speed]', DESC = 'Makes you fly'}
