@@ -10947,8 +10947,8 @@ addcmd('remotespy',{'rspy'},function(args, speaker)
 end)
 
 addcmd('Cobalt',{'cbt'},function(args, speaker)
-	notify("Loading",'wait a second')
-	loadstring(game:HttpGet("dddd"))()
+	notify("Loading",'Cobalt Loading')
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/mjzzy/s/refs/heads/main/Cobalt"))()
 end)
 
 addcmd('audiologger',{'alogger'},function(args, speaker)
