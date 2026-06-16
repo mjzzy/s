@@ -10946,6 +10946,11 @@ addcmd('remotespy',{'rspy'},function(args, speaker)
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/78n/SimpleSpy/main/SimpleSpyBeta.lua"))()
 end)
 
+addcmd('Cobalt',{'cbt'},function(args, speaker)
+	notify("Loading",'wait a second')
+	loadstring(game:HttpGet("dddd"))()
+end)
+
 addcmd('audiologger',{'alogger'},function(args, speaker)
 	notify("Loading",'Hold on a sec')
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/corecommit/backup/refs/heads/main/audiologger.lua'),true))()
