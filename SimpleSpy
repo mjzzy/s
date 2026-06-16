@@ -747,7 +747,7 @@ local ToolBorderTop = frame{
 
 local toolBtnDefs = {
     { key = "copy",    icon = "⧉", label = "Copy script",   tip = "Copy re-fire script to clipboard",     primary = true  },
-    { key = "block",   icon = "🚫", label = "Block",         tip = "Block this remote from firing",        primary = false },
+    { key = "block",   icon = "⊘", label = "Block",         tip = "Block this remote from firing",        primary = false },
     { key = "exclude", icon = "◌", label = "Exclude",       tip = "Hide this remote from the log",        primary = false },
     { key = "save",    icon = "↓", label = "Save log",      tip = "Export all logs as a .txt file",       primary = false },
     { key = "clear",   icon = "⊘", label = "Clear",         tip = "Clear all remote logs",                primary = false },
